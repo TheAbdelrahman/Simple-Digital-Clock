@@ -43,8 +43,8 @@ let clock = setTimeout(function clockSet() {
 	document.getElementById('am').textContent = am;
 
 	const date = y + '.' + mo + '.' + d; //full date 
-	document.getElementById('day').textContent = day; // fill date
-	document.getElementById('date').textContent = date;
+    document.getElementById('date').textContent = date;// fill date
+	document.getElementById('day').textContent = day; 
 
 	//console.log(time , date) 
 
